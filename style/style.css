@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* world access file */
+
+
+.btn {
+    padding: 15px 20px;
+    font-size: 15px;
+    letter-spacing: .4px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.container {
+    padding: 0 80px;
+}
+
+.para {
+    font-size: 16px;
+}
+
+li { 
+    list-style: none;
+}
+
+p { 
+    letter-spacing: .2px;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4 {
+    letter-spacing: .3px;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header style  */
+
+header {
+    height: 100vh;
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main div img {
+    height: 215px;
+    margin-bottom: 5px;
+}
+
+main div h1 {
+    font-size: 43px;
+    text-align: center;
+}
+
+main div p {
+    color: #0D1321;
+    text-align: center;
+    margin: 18px 0;
+}
+
+main div button {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
