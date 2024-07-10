@@ -11,6 +11,10 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* world access file */
 
 
@@ -99,6 +103,11 @@ main div button {
     background-color: #000000;
     border-radius: 5px;
     border: none;
+    transition: all .2s linear;
+}
+
+main div button:hover {
+    background-color: #000000ca;
 }
 
 main div button a {
@@ -305,6 +314,11 @@ main div button a {
     border-radius: 3px;
     border: none;
     background-color: #fff;
+    transition: all .2s linear;
+}
+
+.feedback form input[type="submit"]:hover {
+    background-color: #dddddd;
 }
 
 /* footer  */
