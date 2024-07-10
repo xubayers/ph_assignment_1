@@ -27,7 +27,7 @@ body {
 }
 
 .para {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .text-lg {
@@ -115,7 +115,7 @@ main div button {
 }
 
 .wwd-content p {
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(13, 19, 33, 0.853);
 }
 
@@ -198,3 +198,65 @@ main div button {
     border: 1.4px solid rgba(128, 128, 128, 0.375);
     border-radius: 13px;
 }
+
+/* my next target */
+
+.next-target {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.next-target .caption {
+    text-align: center;
+}
+
+.next-target .caption p {
+    margin-top: 10px;
+}
+
+.next-target .technologys {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.next-target .technologys div:nth-child(1) {
+    background-color: rgba(255, 76, 30,.05);
+}
+
+.next-target .technologys div:nth-child(2) {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.next-target .technologys div:nth-child(3) {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.next-target .technologys div {
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.next-target .technologys h2 {
+    font-size: 21px;
+}
+
+.next-target .technologys button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    letter-spacing: .5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.technologys div img {
+    height: 50px;
+    margin-bottom: 13px;
+}
+
+.next-target .technologys div p {
+    margin: 10px 0 16px 0;
+}
+
