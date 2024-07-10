@@ -97,9 +97,12 @@ main div p {
 
 main div button {
     background-color: #000000;
-    color: white;
     border-radius: 5px;
     border: none;
+}
+
+main div button a {
+    color: white;
 }
 
 /*===================================================
@@ -203,7 +206,7 @@ main div button {
 
 .next-target {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .next-target .caption {
@@ -260,3 +263,83 @@ main div button {
     margin: 10px 0 16px 0;
 }
 
+/* feedback section */
+
+.feedback {
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 257px;
+    margin-bottom: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback p {
+    color: rgb(255, 255, 255);
+    opacity: .7;
+    margin: 5px 0 15px 0;
+}
+
+.feedback form input[type="text"]{
+    width: 440px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    padding: 0 8px;
+    font-size: 14px;
+    border: none;
+}
+
+.feedback form input[type="submit"] {
+    letter-spacing: .5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 11px 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+}
+
+/* footer  */
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+
+footer {
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer>div>p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer>div {
+    padding: 20px 0;
+}
+
+footer div img {
+    height: 32px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+footer div img:hover {
+    height: 28px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 15px;
+}
